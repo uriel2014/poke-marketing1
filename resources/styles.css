@@ -1,1 +1,58 @@
 /* Additional styling needed */
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+   .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+   }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:150px;
+  }
+
+  .carousel-caption{
+    color: maroon;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+
+  .container h3{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .row img{
+    height:200px;
+  }
+
+  .one{
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+
+  /* Give the words under the images some styling with class one*/
+
+  .well{
+    background-color: blue;
+    color:white;
+  }
+
+  .well:hover{
+    background-color: black;
+    color:white;
+  }
+
+  /* Add a maroon background color and some padding to the footer */
+    footer {
+      background-color: maroon;
+      color: white;
+      padding: 25px;
+    }
